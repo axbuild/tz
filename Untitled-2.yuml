@@ -1,0 +1,25 @@
+// {type:usecase}
+// {direction:leftToRight}
+// {generate:true}
+
+
+[User Client]-(App1)
+(App1)>(Auth)
+(Auth)>(SignUp/SignIn)
+(Auth)>(SignUp/SignIn WithGoogle)
+(App1)>(Search)
+(App1)>(Profile)
+(Profile)>(setFree)
+(Search)>(Actions Video/Voice Call)
+(Search)>(Chat/History of Call, Missing...)
+
+
+[User Zen]-(App2)
+(App2)>(Auth)
+(App2)>(Calendar)
+(Calendar)>(Add/Delete/Set free time)
+(App2)>(Profile)
+(Profile)>(add/update skills)
+(Profile)>(add payment card)
+(Profile)>(update personal information)
+(Profile)>(Billing history)

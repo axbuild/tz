@@ -1,0 +1,20 @@
+// {type:deployment}
+// {generate:true}
+
+[Mobile/Web App]1.Using service-[Firebase Server]
+[Firebase Server]2.1.Actions/Add/Update/Delete-[Firebase Hosting]
+[Firebase Server]2.2.Upload/Save Files-[Firebase Storage]
+[Firebase Server]2.3.Read-[Firebase Database]
+[Mobile/Web App]2.Audi/Video Call-[Agora.io Service]
+[Mobile/Web App]3.Manage account data -[Firebase Hosting]
+[Mobile/Web App]4.Send Exceptions-[Sentry Service]
+[Firebase Hosting]4.1.Send Logs-[ELK Service]
+[Firebase Hosting]4.2.Send Bussines info-[B24 Service]
+[Firebase Hosting]4.3.Read Bussines info-[Bussines Logic Server]
+[Firebase Hosting]4.4.Read Statistic-[Agora.io Service]
+[Firebase Hosting]4.5.Manage files-[Firebase Storage]
+[Firebase Hosting]4.6.Manage records-[Firebase Database]
+[Firebase Hosting]4.7.Proxy Bussines Data-[Bussines Logic Server]
+[B24 Service]4.2.1 Triger Payments- [Bussines Logic Server]
+[Bussines Logic Server]4.2.1.1.Validate and send payment actions-[Stripe Service]
+
